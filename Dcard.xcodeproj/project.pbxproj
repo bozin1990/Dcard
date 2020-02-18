@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		706864A223EADCF8002C8225 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706864A123EADCF8002C8225 /* PostDetailViewController.swift */; };
+		706864A423EADD0C002C8225 /* PostDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706864A323EADD0C002C8225 /* PostDetail.swift */; };
 		70B5089A23E8428D005370DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B5089923E8428D005370DA /* AppDelegate.swift */; };
 		70B5089C23E8428D005370DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B5089B23E8428D005370DA /* SceneDelegate.swift */; };
-		70B5089E23E8428D005370DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B5089D23E8428D005370DA /* ViewController.swift */; };
 		70B508A123E8428D005370DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B5089F23E8428D005370DA /* Main.storyboard */; };
 		70B508A323E84290005370DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70B508A223E84290005370DA /* Assets.xcassets */; };
 		70B508A623E84290005370DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B508A423E84290005370DA /* LaunchScreen.storyboard */; };
+		70B508AF23E842BA005370DA /* Dcard.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70B508AE23E842BA005370DA /* Dcard.xcassets */; };
+		70B508B323E842F0005370DA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B508B223E842F0005370DA /* Post.swift */; };
+		70B508B523E84849005370DA /* PostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B508B423E84849005370DA /* PostTableViewController.swift */; };
+		70B508B923E84B53005370DA /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B508B823E84B53005370DA /* PostTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		706864A123EADCF8002C8225 /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		706864A323EADD0C002C8225 /* PostDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetail.swift; sourceTree = "<group>"; };
 		70B5089623E8428D005370DA /* Dcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B5089923E8428D005370DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70B5089B23E8428D005370DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		70B5089D23E8428D005370DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		70B508A023E8428D005370DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70B508A223E84290005370DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70B508A523E84290005370DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70B508A723E84290005370DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B508AE23E842BA005370DA /* Dcard.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Dcard.xcassets; sourceTree = "<group>"; };
+		70B508B223E842F0005370DA /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		70B508B423E84849005370DA /* PostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewController.swift; sourceTree = "<group>"; };
+		70B508B823E84B53005370DA /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		70B5089823E8428D005370DA /* Dcard */ = {
 			isa = PBXGroup;
 			children = (
+				70B508AD23E84297005370DA /* Preview Content */,
 				70B5089923E8428D005370DA /* AppDelegate.swift */,
 				70B5089B23E8428D005370DA /* SceneDelegate.swift */,
-				70B5089D23E8428D005370DA /* ViewController.swift */,
+				70B508B223E842F0005370DA /* Post.swift */,
 				70B5089F23E8428D005370DA /* Main.storyboard */,
+				706864A123EADCF8002C8225 /* PostDetailViewController.swift */,
+				706864A323EADD0C002C8225 /* PostDetail.swift */,
+				70B508B823E84B53005370DA /* PostTableViewCell.swift */,
+				70B508B423E84849005370DA /* PostTableViewController.swift */,
 				70B508A223E84290005370DA /* Assets.xcassets */,
 				70B508A423E84290005370DA /* LaunchScreen.storyboard */,
 				70B508A723E84290005370DA /* Info.plist */,
 			);
 			path = Dcard;
+			sourceTree = "<group>";
+		};
+		70B508AD23E84297005370DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				70B508AE23E842BA005370DA /* Dcard.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70B508AF23E842BA005370DA /* Dcard.xcassets in Resources */,
 				70B508A623E84290005370DA /* LaunchScreen.storyboard in Resources */,
 				70B508A323E84290005370DA /* Assets.xcassets in Resources */,
 				70B508A123E8428D005370DA /* Main.storyboard in Resources */,
@@ -138,9 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70B5089E23E8428D005370DA /* ViewController.swift in Sources */,
+				706864A423EADD0C002C8225 /* PostDetail.swift in Sources */,
+				70B508B523E84849005370DA /* PostTableViewController.swift in Sources */,
+				706864A223EADCF8002C8225 /* PostDetailViewController.swift in Sources */,
 				70B5089A23E8428D005370DA /* AppDelegate.swift in Sources */,
+				70B508B923E84B53005370DA /* PostTableViewCell.swift in Sources */,
 				70B5089C23E8428D005370DA /* SceneDelegate.swift in Sources */,
+				70B508B323E842F0005370DA /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "Dcard/Preview\\ Content";
 				DEVELOPMENT_TEAM = 7B4C4DSQ93;
 				INFOPLIST_FILE = Dcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -303,6 +332,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "Dcard/Preview\\ Content";
 				DEVELOPMENT_TEAM = 7B4C4DSQ93;
 				INFOPLIST_FILE = Dcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
